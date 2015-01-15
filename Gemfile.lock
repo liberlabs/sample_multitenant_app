@@ -1,9 +1,3 @@
-PATH
-  remote: /Users/unni/Projects/allinone
-  specs:
-    allinone (0.0.1)
-      request_store
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -42,6 +36,8 @@ GEM
       minitest (~> 5.1)
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
+    allinone (0.0.1)
+      request_store
     arel (6.0.0)
     binding_of_caller (0.7.2)
       debug_inspector (>= 0.0.1)
@@ -158,7 +154,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  allinone!
+  allinone
   byebug
   coffee-rails (~> 4.1.0)
   jbuilder (~> 2.0)

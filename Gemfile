@@ -44,5 +44,5 @@ group :development, :test do
   gem 'spring'
 end
 
-gem 'allinone', path: '/Users/unni/Projects/allinone'
+gem 'allinone'
 
